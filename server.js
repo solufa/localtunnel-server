@@ -22,7 +22,6 @@ export default function(opt) {
     }
 
     const manager = new ClientManager(opt);
-
     const schema = opt.secure ? 'https' : 'http';
 
     const app = new Koa();
